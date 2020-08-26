@@ -8,15 +8,16 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!-- <div>
-  <h1>my Goals </h1>
+  <h1>My Goals</h1>
+  <p>My goal for today is {{goals}}</p>
   <ul>
     <li *ngFor='let goal of goals'>
       {{goal.name}}
     </li>
   </ul>
-  <p *ngIf='goals.length > 5'>Your goals are too many</p>
+  <p *ngIf='goals.length>5'> your goals are too many</p>
 </div> -->
-
+<app-goal></app-goal>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -26,5 +27,5 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<app-goal></app-goal>
-<router-outlet></router-outlet>
+
+<!-- <router-outlet></router-outlet> -->
