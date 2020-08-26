@@ -2,19 +2,12 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 h1{
-border: solid 3px black;
-border-radius: 10px;
 text-align: center;
 }
 body {
-  background-color: rgba(226, 168, 43, 0.555);
+  background-color: rgb(221,160,221);
 }
 .col-md-7 {
   border-left: black dotted 4px;
   padding-left: 30px;
-}
-#goalheading{
-  text-decoration: dotted underline;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
 }
